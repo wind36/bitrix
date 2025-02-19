@@ -7,7 +7,7 @@ use Bitrix\Main\Loader;
 EventManager::getInstance()->registerEventHandler(
     'main',                           // Модуль, который генерирует событие
     'OnBeforeProlog',                 // Событие
-    'wcurrency',                      // ID вашего модуля
+    'wcurrency',                      // ID модуля
     '\Wcurrency\EventHandlers',       // Пространство имен и класс обработчика
     'onBeforeProlog'                  // Метод обработчика
 );
